@@ -4,11 +4,27 @@
   box-sizing: border-box;
 }
 
+body{
+  display: flex;
+  background-color: hsl(30, 38%, 92%);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
+body p{
+  font-size: 14px;
+  font-family: Montserrat;
+}
 
 .attribution {
+  position: absolute;
   font-size: 11px;
   text-align: center;
+  width: 100%;
+  bottom: 0.50rem;
+  left: 0;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
