@@ -76,6 +76,28 @@ body p {
   left: 0;
 }
 
+.price-box{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price-old{
+  font-family: Montserrat;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 0.975rem;
+  color: hsl(228, 12%, 48%);  
+}
+
+.price-new{
+  font-family: Fraunces;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: hsl(158, 36%, 37%);  
+}
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
