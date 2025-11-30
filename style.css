@@ -24,6 +24,7 @@ body p {
 
 .card-img img {
   width: 18.75rem;
+  height: 28rem;
   align-self: stretch;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -32,9 +33,10 @@ body p {
 .card-content {
   display: flex;
   width: 18.75rem;
-  height: 28.125rem;
+  height: 28rem;
   background-color: white;
   flex-direction: column;
+  align-items: flex-start;
   padding: 2rem;
   gap: 2rem;
   border-top-right-radius: 0.5rem;
@@ -43,6 +45,7 @@ body p {
 
 .category{ 
   font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
   font-size: 0.75rem;
   font-weight: 500;
   line-height: 120%;
