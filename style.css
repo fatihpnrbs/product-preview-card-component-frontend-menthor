@@ -48,13 +48,24 @@ body p {
   color: hsl(228, 12%, 48%);
   font-size: 0.75rem;
   font-weight: 500;
-  line-height: 120%;
   letter-spacing: 0.31rem;
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
 }
 
+.title{
+  font-family: Fraunces;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
 
+.desc{
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.4rem;
+}
 
 .attribution {
   position: absolute;
