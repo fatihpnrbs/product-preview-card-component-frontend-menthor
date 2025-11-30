@@ -1,32 +1,67 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   display: flex;
   background-color: hsl(30, 38%, 92%);
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   min-height: 100vh;
 }
 
-body p{
-  font-size: 14px;
+body p {
+  font-size: 0.87rem;
   font-family: Montserrat;
 }
 
+.card{
+  display: flex;
+}
+
+.card-img img {
+  width: 18.75rem;
+  align-self: stretch;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.card-content {
+  display: flex;
+  width: 18.75rem;
+  height: 28.125rem;
+  background-color: white;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.category{ 
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.31rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+
+
 .attribution {
   position: absolute;
-  font-size: 11px;
+  font-size: 0.6825rem;
   text-align: center;
   width: 100%;
-  bottom: 0.50rem;
+  bottom: 0.5rem;
   left: 0;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
