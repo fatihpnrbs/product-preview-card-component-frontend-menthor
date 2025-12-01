@@ -107,6 +107,7 @@ body p {
   background-color: hsl(158, 36%, 37%);
   border-radius: 0.5rem;
   border-style: none;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .btn span {
