@@ -18,7 +18,7 @@ body p {
   font-family: Montserrat;
 }
 
-.card{
+.card {
   display: flex;
 }
 
@@ -42,7 +42,7 @@ body p {
   border-bottom-right-radius: 0.5rem;
 }
 
-.category{ 
+.category {
   font-family: Montserrat;
   color: hsl(228, 12%, 48%);
   font-size: 0.75rem;
@@ -51,14 +51,14 @@ body p {
   text-transform: uppercase;
 }
 
-.title{
+.title {
   font-family: Fraunces;
   font-size: 2rem;
   font-weight: 700;
   line-height: 2rem;
 }
 
-.desc{
+.desc {
   font-family: Montserrat;
   font-size: 0.875rem;
   font-weight: 500;
@@ -75,46 +75,51 @@ body p {
   left: 0;
 }
 
-.price-box{
+.price-box {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.price-old{
+.price-old {
   font-family: Montserrat;
   font-size: 0.8125rem;
   font-weight: 500;
   line-height: 0.975rem;
-  color: hsl(228, 12%, 48%);  
+  color: hsl(228, 12%, 48%);
 }
 
-.price-new{
+.price-new {
   font-family: Fraunces;
   font-size: 2rem;
   font-weight: 700;
   line-height: 2rem;
-  color: hsl(158, 36%, 37%);  
+  color: hsl(158, 36%, 37%);
 }
 
-.btn{
-display: flex;
-align-items: center;
-justify-content: center;
-width: 14.75rem;
-padding: 1rem 2rem;
-gap: 0.5rem;
-background-color: hsl(158, 36%, 37%);
-border-radius: 0.5rem;
-border-style: none;
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14.75rem;
+  padding: 1rem 2rem;
+  gap: 0.5rem;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 0.5rem;
+  border-style: none;
 }
 
-.btn span{
-color: white;
-font-family: Montserrat;
-font-size: 0.875rem;
-font-weight: 700;
-line-height: 0.9625rem;
+.btn span {
+  color: white;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.9625rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: hsl(158, 42%, 18%);
 }
 
 .attribution a {
